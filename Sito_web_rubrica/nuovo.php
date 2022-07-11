@@ -58,7 +58,7 @@
   <body>
     <div class="container">
       <img src="img/logo.png" alt="Immagine del logo" class="logo" onclick="location.href='index.php';">
-      <div class="cont_button">
+      <div class="wrapper">
         <h2>Aggiungi nuovo contatto</h2>
 
         <form  class="cont_form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
@@ -73,7 +73,7 @@
 
         </form>
 
-      </div>
+    </div>
     </div>
 
   </body>
